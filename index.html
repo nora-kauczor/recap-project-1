@@ -8,25 +8,28 @@
   <body>
     <header><h1>Quiz App</h1></header>
     <main>
+      <!--Box mit erster Frage -->
       <section class="box1">
         <img id= "bookmark1" src="bookmark-white.png" alt="empty bookmark"/>
-        <p>What property flips the axes in flexbox?</p>
+        
+        <p class="question">What property flips the axes in flexbox?</p>
         <button class="question-button" href="#">Show Answer</button>
-        <div class="hashtags">
-          <button href="#">#html</button>
-          <button href="#">#flexbox</button>
-          <button href="#">#css</button>
+        <div class="hashtags-div">
+          <button class="hashtags" href="#">#html</button>
+          <button class="hashtags" href="#">#flexbox</button>
+          <button class="hashtags" href="#">#css</button>
         </div>
       </section>
 
+    <!--Box mit zweiter Frage -->
       <section class="box2">
         <img id="bookmark2" src="bookmark-black.png" alt="black bookmark"/>
-        <p>Lorem Impsum dolor sit?</p>
-        <button class="question-button" href="#">Show Answer</button>
-        <div class="hashtags">
-          <button href="#">#html</button>
-          <button href="#">#flexbox</button>
-          <button href="#">#css</button>
+        <p class="question">Lorem Impsum dolor sit?</p>
+        <div class="flexbox-question"></div><button class="question-button" href="#">Show Answer</button></div>
+        <div class="hashtags-div">
+          <button class="hashtags" href="#">#html</button>
+          <button class="hashtags" href="#">#flexbox</button>
+          <button class="hashtags" href="#">#css</button>
         </div>
       </section>
     </main>
@@ -34,13 +37,13 @@
       <nav>
         <ul>
           <li>
-            <a id="home" href=><img src="./home-button.png" alt="home icon" id="home-icon"/></a>
+            <a id="home" href=><img src="./home-button.png" alt="home icon" id="home-icon" aria-label="click here to go to homepage"/></a>
           </li>
           <li>
-            <a id="bookmarks" href="./bookmarks.html"><img src="./bookmark.png" alt="bookmark" id="bookmark-icon"></a>
+            <a id="bookmarks" href="./bookmarks.html"><img src="./bookmark.png" alt="bookmark" id="bookmark-icon" aria-label="click here to go to your bookmarked questions"></a>
           </li>
           <li>
-            <a id="profile" href="./profile.html"><img src="user-icon.png" alt="user icon" id="pr"/></a>
+            <a id="profile" href="./profile.html"><img src="user-icon.png" alt="user icon" id="profile" aria-label="click here to go to your profile"/></a>
           </li>
         </ul>
       </nav>
