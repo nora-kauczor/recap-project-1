@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="./styles.css" <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css"> <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./quiz-app.js" defer></script>
     <title>Quiz App</title>
   </head>
-  <body>
-    <header><h1>Quiz App</h1></header>
+  <body class="body-homepage">
+    <header><title>Quiz App</title></header>
     <main>
       <section class="box1">
-        <img id= "bookmark1" src="bookmark-white.png" alt="empty bookmark"/>
-        <p>What property flips the axes in flexbox?</p>
-        <button href="#">Show Answer</button>
-        <div class="hashtags">
+        <img class="box1-bookmark" data-js="box1-bookmark" src="images/bookmark-white.png" alt="empty bookmark"/>
+        <p class="box1-question">What property flips the axes in flexbox?</p>
+        <button class="box1-button" href="#">Show Answer</button>
+        <div class="box1-hashtags hashtags">
           <button href="#">#html</button>
           <button href="#">#flexbox</button>
           <button href="#">#css</button>
@@ -20,13 +21,13 @@
       </section>
 
       <section class="box2">
-        <img id="bookmark2" src="bookmark-black.png" alt="black bookmark"/>
-        <p>Lorem Impsum dolor sit?</p>
-        <button href="#">Show Answer</button>
-        <div class="hashtags">
-          <button href="#">#html</button>
-          <button href="#">#flexbox</button>
-          <button href="#">#css</button>
+        <img class="box2-bookmark" src="images/bookmark-black.png" alt="black bookmark"/>
+        <p class="box2-question">Lorem Impsum dolor sit?</p>
+        <button class="box2-button" data-js="box2-button" href="#">Show Answer</button>
+        <div class="box2-hashtags hashtags">
+          <a href="#">#html</a>
+          <a href="#">#flexbox</a>
+          <a href="#">#css</a>
         </div>
       </section>
     </main>
@@ -34,13 +35,13 @@
       <nav>
         <ul>
           <li>
-            <a id="home" href=><img src="./home-button.png" alt="home icon" id="home-icon"/></a>
+            <a id="home" href=><img src="./images/home-button.png" alt="home icon" /></a>
           </li>
           <li>
-            <a id="bookmarks" href="./bookmarks.html"><img src="./bookmark.png" alt="bookmark" id="bookmark-icon"></a>
+            <a id="bookmarks" href="./bookmarks-page.html"><img src="./images/bookmark.png" alt="bookmark"></a>
           </li>
           <li>
-            <a id="profile" href="./profile.html"><img src="user-icon.png" alt="user icon" id="pr"/></a>
+            <a id="profile" href="./profile-page.html"><img src="./images/user-icon.png" alt="user icon" /></a>
           </li>
         </ul>
       </nav>

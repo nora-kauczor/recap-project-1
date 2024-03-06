@@ -1,0 +1,16 @@
+.box1,
+.box2 {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  padding: 20px;
+  position: relative;
+  background-color: goldenrod;
+}
+
+.box1-bookmark,
+.box2-bookmark {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+}
