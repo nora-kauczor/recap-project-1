@@ -1,0 +1,5 @@
+/* settings-section on profile page */
+/* In diesem Fall ist die class keine clas sin HTML, d.h. es ist erstmal nicht definiert, worauf es angewendet wird */
+.dark {
+  color: black;
+}
