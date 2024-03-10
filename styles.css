@@ -1,3 +1,5 @@
+/* // https://github.com/neuefische/web-exercises/blob/main/sessions/recap-project-1/quiz-app/README.md */
+
 @import "components/navigation.css";
 @import "components/card.css";
 @import "components/header.css";
@@ -7,17 +9,24 @@
 }
 
 :root {
-  --primary-font: arial;
-  --primary-background-color: lightgreen;
-  --secondary-background-color: darkgreen;
+  --primary-font: 'Pacifico';
+  --primary-color: #1AED9A;
+  --secondary-color: #77EDA7;
+  --third-color: #EDE777;
   --primary-font-color: black;
+  --secondary-font-color: 
+
+  --header-height: 150px;
+  --box-height: 260px;
+  --box-width: 280px;
+  --gap-boxes: 40px;
 }
 
 .body-homepage {
-  background-color: var(--primary-background-color);
+  background-color: var(--primary-color);
   position: relative;
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   font-family: var(--primary-font);
 }
 

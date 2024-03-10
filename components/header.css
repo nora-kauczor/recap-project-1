@@ -1,6 +1,14 @@
-title {
+header {
   position: fixed;
   font-size: 14px;
-  color: 
-  background-color: 
+  background-color: var(--secondary-color);
+  heigth: var(--header-height);
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-text {
 }

@@ -1,15 +1,29 @@
 /* styles for the footer*/
 
-ul {
+footer {
+  height: var(--header-height);
+  position: fixed;
+}
+
+.nav-list {
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-items: flex-end;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-#home-icon,
-#bookmark-icon,
-#profile-icon {
-  width: 50px;
+.nav-home-icon,
+.nav-bookmark-icon,
+.nav-profile-icon {
+  width: 10x;
+}
+
+.home-icon-selected {
+}
+
+.bookmark-icon-selected {
+}
+
+.profile-icon-selected {
 }
