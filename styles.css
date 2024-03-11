@@ -4,7 +4,7 @@
 @import "components/card.css";
 @import "components/header.css";
 @import "components/button.css";
-@import "components/settings.css" * {
+@import "components/settings.css"; * {
   box-sizing: border-box;
 }
 
@@ -30,8 +30,8 @@
   font-family: var(--primary-font);
 }
 
-.body-profile-page {
-}
+/* .body-profile-page {
+} */
 
-.body-bookmarks-page {
-}
+/* .body-bookmarks-page {
+} */
