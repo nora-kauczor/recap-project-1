@@ -4,10 +4,13 @@
     <link rel="stylesheet" href="./styles.css"> <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./quiz-app.js" defer></script>
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/pacifico');
+      </style>
     <title>homepage</title>
   </head>
   <body class="body-homepage">
-    <header><h1>Quiz App</h1></header>
+    <header class="header"><h1 class="header-text">Quiz App</h1></header>
     <main>
 
       <!--Box mit erster Frage -->
@@ -19,7 +22,7 @@
         
 
         <img class="box1-bookmark" data-js="box1-bookmark" src="images/bookmark-white.png" alt="empty bookmark"/>
-        <p class="box1-question">What property flips the axes in flexbox?</p>
+        <p class="box1-question question">What property flips the axes in flexbox?</p>
         <button class="box1-button" href="#">Show Answer</button>
         <div class="box1-hashtags hashtags">
           <button href="#">#html</button>
@@ -35,7 +38,7 @@
 
 
         <img class="box2-bookmark" src="images/bookmark-black.png" alt="black bookmark"/>
-        <p class="box2-question">Lorem Impsum dolor sit?</p>
+        <p class="box2-question question">Lorem Impsum dolor sit?</p>
         <button class="box2-button" data-js="box2-button" href="#">Show Answer</button>
         <div class="box2-hashtags hashtags">
           <a href="#">#html</a>
@@ -48,8 +51,9 @@
     <!-- Nav bar -->
     <footer>
       <nav>
-        <ul>
+        <ul class="nav-list">
           <li>
+<<<<<<< HEAD
 
 
             <a id="home" href=><img src="./home-button.png" alt="home icon" id="home-icon" aria-label="click here to go to homepage"/></a>
@@ -63,13 +67,20 @@
 
 
             <!-- <a class="nav-home home-selected" href=><img src="./images/home-button.png" alt="home icon" /></a>
+=======
+            <a class="nav-home home-icon-selected" href=><img class="nav-home-icon" src="./images/home-button.png" alt="home icon" /></a>
+>>>>>>> 363895f (change styles)
           </li>
           <li>
-            <a class="nav-bookmark" href="./bookmarks-page.html"><img src="./images/bookmark.png" alt="bookmark"></a>
+            <a class="nav-bookmark" href="./bookmarks-page.html"><img class="nav-bookmark-icon" src="./images/bookmark.png" alt="bookmark"></a>
           </li>
           <li>
+<<<<<<< HEAD
             <a nav="nav-profile" href="./profile-page.html"><img src="./images/user-icon.png" alt="user icon" /></a> -->
 
+=======
+            <a class="nav-profile" href="./profile-page.html"><img class="nav-profile-icon" src="./images/user-icon.png" alt="user icon" /></a>
+>>>>>>> 363895f (change styles)
           </li>
         </ul>
       </nav>

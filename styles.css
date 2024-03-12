@@ -1,21 +1,32 @@
+/* // https://github.com/neuefische/web-exercises/blob/main/sessions/recap-project-1/quiz-app/README.md */
+
 @import "components/navigation.css";
 @import "components/card.css";
 @import "components/header.css";
 @import "components/button.css";
-@import "components/settings.css" * {
+@import "components/settings.css";
+* {
   box-sizing: border-box;
 }
 
 :root {
-  --primary-font: arial;
-  --primary-background-color: lightgreen;
-  --secondary-background-color: darkgreen;
+  --primary-font: "Pacifico";
+  --primary-color: #1aed9a;
+  --secondary-color: #77eda7;
+  --third-color: #ede777;
   --primary-font-color: black;
+  /* --secondary-font-color:  */
+
+  --header-height: 150px;
+  --box-height: 260px;
+  --box-width: 280px;
+  --gap-boxes: 40px;
 }
 
-.body-homepage {
-  background-color: var(--primary-background-color);
+/* .body-homepage {
+  background-color: var(--primary-color);
   position: relative;
+
   display: flex;
 
   flex-direction: column;
@@ -23,9 +34,13 @@
   align-items: center;
   font-family: arial;
   font-size: 14;
-}
 
-header {
+  /* display: flex;
+  flex-wrap: wrap; */
+/* font-family: var(--primary-font);
+
+} */
+*/ header {
   position: fixed;
   color: white;
   background-color: darkgreen;
@@ -117,8 +132,8 @@ ul {
   display: flex;
 }
 
-li {
-}
+/* li {
+} */
 
 #home-icon,
 #bookmark-icon,
@@ -130,11 +145,11 @@ li {
 font-family: var(--primary-font);
 } */
 
-.body-profile-page {
+/* .body-profile-page {
 }
 
 .body-bookmarks-page {
-}
+} */
 
 /*  Wir befinden uns auf der Homepage, daher ist der Homebutton unten farbig hinterlegt/ausgewählt. */
 
