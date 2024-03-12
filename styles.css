@@ -4,7 +4,8 @@
 @import "components/card.css";
 @import "components/header.css";
 @import "components/button.css";
-@import "components/settings.css"; * {
+@import "components/settings.css";
+* {
   box-sizing: border-box;
 }
 
@@ -26,7 +27,7 @@
   background-color: var(--primary-color);
   position: relative;
   /* display: flex;
-  flex-wrap: wrap; */
+  flex-wrap: wrap;
   font-family: var(--primary-font);
 } */
 
