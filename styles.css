@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-/* :root {
+:root {
   --primary-font: 'Pacifico';
   --primary-color: #1AED9A;
   --secondary-color: #77EDA7;
@@ -23,13 +23,13 @@
   --gap-boxes: 40px;
 } */
 
-/* .body-homepage {
+.body-homepage {
   background-color: var(--primary-color);
   position: relative;
-  /* display: flex;
+  display: flex;
   flex-wrap: wrap;
   font-family: var(--primary-font);
-} */
+}
 
 /* .body-profile-page {
 } */
