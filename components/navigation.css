@@ -1,0 +1,15 @@
+/* styles for the footer*/
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+#home-icon,
+#bookmark-icon,
+#profile-icon {
+  width: 50px;
+}

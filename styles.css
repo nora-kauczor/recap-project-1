@@ -1,11 +1,24 @@
-. {
+@import "components/navigation.css";
+@import "components/card.css";
+@import "components/header.css";
+@import "components/button.css";
+
+* {
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgreen;
+:root {
+  --primary-font: arial;
+  --primary-background-color: lightgreen;
+  --secondary-background-color: darkgreen;
+  --primary-font-color: black;
+}
+
+.body-homepage {
+  background-color: var(--primary-background-color);
   position: relative;
   display: flex;
+
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
@@ -112,6 +125,16 @@ li {
 #bookmark-icon,
 #profile-icon {
   width: 50px;
+}
+
+/* body: flex-wrap: wrap;
+font-family: var(--primary-font);
+} */
+
+.body-profile-page {
+}
+
+.body-bookmarks-page {
 }
 
 /*  Wir befinden uns auf der Homepage, daher ist der Homebutton unten farbig hinterlegt/ausgewählt. */
