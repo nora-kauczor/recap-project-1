@@ -9,150 +9,30 @@
   box-sizing: border-box;
 }
 
-:root {
-  --primary-font: "Pacifico";
-  --primary-color: #1aed9a;
-  --secondary-color: #77eda7;
-  --third-color: #ede777;
+/* :root {
+  --primary-font: 'Pacifico';
+  --primary-color: #1AED9A;
+  --secondary-color: #77EDA7;
+  --third-color: #EDE777;
   --primary-font-color: black;
-  /* --secondary-font-color:  */
+  --secondary-font-color: 
 
   --header-height: 150px;
   --box-height: 260px;
   --box-width: 280px;
   --gap-boxes: 40px;
-}
+} */
 
 /* .body-homepage {
   background-color: var(--primary-color);
   position: relative;
-
-  display: flex;
-
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  font-family: arial;
-  font-size: 14;
-
   /* display: flex;
-  flex-wrap: wrap; */
-/* font-family: var(--primary-font);
-
-} */
-*/ header {
-  position: fixed;
-  color: white;
-  background-color: darkgreen;
-  align-self: flex-start;
-}
-
-/*Boxen auf der seite positionieren*/
-.box1 {
-  position: absolute;
-  top: 120px;
-}
-
-.box2 {
-  position: absolute;
-  top: 150px;
-}
-
-/*Bookmark icons an den Boxen platzieren*/
-#bookmark1,
-#bookmark2 {
-  position: absolute;
-  top: -10px;
-  right: 10px;
-}
-
-/*Boxen stylen, zu Flexboxen machen und children positionieren. children sind img & p & button & div ?????????*/
-.box1,
-.box2 {
-  width: 200px;
-  height: 170px;
-  border: 2px solid black;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
-
-/*Man muss scheinbar beide Boxen getrennt die position etwas anderes als static deklarieren, weil sonst die children nicht reagieren*/
-.box2 {
-  position: relative;
-}
-.box1 {
-  position: relative;
-}
-/**/
-.question {
-  position: absolute;
-  top: 30px;
-  left: 10px;
-}
-.question-button {
-  position: absolute;
-  bottom: 70px;
-  height: 50px;
-}
-
-.question-button:hover {
-  box-shadow: grey;
-}
-
-/*Hashtag-Divs wird absolut zu ihrem parent box1 oder box2 positioniert.*/
-
-.hashtags-div {
-  position: absolute;
-  bottom: 0;
-  display: flex;
-}
-
-.hashtags {
-  color: blue;
-  border: none;
-  background-color: lightgreen;
-}
-
-/* styles for the footer*/
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: darkgreen;
-  width: auto;
-  height: auto;
-  align-self: flex-end;
-}
-
-/*unordered list zu flexbox machen ?????????*/
-ul {
-  list-style: none;
-  display: flex;
-}
-
-/* li {
-} */
-
-#home-icon,
-#bookmark-icon,
-#profile-icon {
-  width: 50px;
-}
-
-/* body: flex-wrap: wrap;
-font-family: var(--primary-font);
+  flex-wrap: wrap;
+  font-family: var(--primary-font);
 } */
 
 /* .body-profile-page {
-}
-
-.body-bookmarks-page {
 } */
 
-/*  Wir befinden uns auf der Homepage, daher ist der Homebutton unten farbig hinterlegt/ausgewählt. */
-
-#home-icon {
-  background-color: hotpink;
-}
+/* .body-bookmarks-page {
+} */
